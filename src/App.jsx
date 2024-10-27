@@ -1,14 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Main from "./components/main";
+import Home from "./components/home.jsx";//+
 
 function App(){
     return (
-        <Main />
+        <Home />
     )
 }
 
 createRoot(document.getElementById('root')).render(
-    <Main/>
+    <App/>
 )
 

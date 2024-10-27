@@ -1,6 +1,6 @@
+import React from "react";
 
-
-export default function Home(){
+ function Home(){
     return (
         <nav>
             <h1>Abdeljalil Test</h1>
@@ -12,3 +12,4 @@ export default function Home(){
         </nav>
     )
 }
+export default Home;
