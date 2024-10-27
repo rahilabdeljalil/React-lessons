@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #36383d;
+}
+nav .nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+nav .nav-left  {
+    color: aqua;
+}
+nav .nav-left img{
+    height: 40px;
+    mix-blend-mode: multiply;
+}

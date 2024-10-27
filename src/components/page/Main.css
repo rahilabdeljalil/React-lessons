@@ -1,0 +1,11 @@
+main{
+    margin: 40px;
+}
+main h1 {
+    font-size: clamp(1rem, 7vw, 10rem) ;
+}
+main ul li{
+    font-size: clamp(1rem, 3vw, 1.5rem) ;
+    padding: 10px;
+}
+main ul li::marker{color: aqua;}

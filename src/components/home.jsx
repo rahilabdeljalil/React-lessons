@@ -1,22 +1,15 @@
 
 import React from "react";
-import image from "../images/react-icon.png"
 import "./home.css"
-
+import Navbar from "./page/Navbar"
+import Main from "./page/Main"
 function Home(){
 
     return (
-        <nav>
-            <img  src={image} alt="React Icon"/> 
-            <h1>Fun Facts about react</h1>
-            <ul>
-                <li>Created by Facebook engineer.</li>
-                <li>Efficient web app updates.</li>
-                <li>Uses virtual DOM.</li>
-                <li>Supports web and mobile.</li>
-                <li>Component-based architecture.</li>
-            </ul>
-        </nav>
+      <div className="container"> 
+      <Navbar />
+      <Main />
+      </div>
     )
 }
 
